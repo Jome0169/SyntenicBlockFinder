@@ -87,7 +87,7 @@ def SyntenyDrawer(LocationData, SytenyBlockInfo,alignmentname, \
 
         print("Drawing in Progress")
         #Initialize features 
-        gdt_features = gdd.new_track(1, greytrack=False, name=[item[0][0]],
+        gdt_features = gdd.new_track(1, greytrack=True, name=[item[0][0]],
                 start=0, end=EndSeq)
         gds_features = gdt_features.new_set()
       

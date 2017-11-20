@@ -536,7 +536,6 @@ def main():
     print("Loadinging In Gff and Genomes")
     AllLoadedFiles = ParseFastaAndGffFile(BFlag) 
 
-
     #Create Class for Each Alignment, and filer
     print("Running Through Gene Class")
     for algn, geneSet in QueryAlignments.items():
